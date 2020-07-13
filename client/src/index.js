@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import HomePage from './homePage';
+import Routes from './routes.js';
 import * as serviceWorker from './serviceWorker';
 
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <HomePage />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    <HomePage />
-  </React.StrictMode>,
+  <Routes />,
   document.getElementById('root')
 );
 
