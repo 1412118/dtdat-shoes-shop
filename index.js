@@ -4,7 +4,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 
 var app = express();
-var port = 3000;
+var port = 5000;
 mongoose.connect(process.env.MONGO_URL);
 
 app.set('view engine', 'ejs');
